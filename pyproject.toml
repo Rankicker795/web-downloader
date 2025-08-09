@@ -1,0 +1,20 @@
+[project]
+name = "web-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=5.5.0",
+    "great-tables>=0.18.0",
+    "httpx>=0.28.1",
+    "numpy>=2.3.2",
+    "parsel>=1.10.0",
+    "polars>=1.32.2",
+    "rich>=14.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.4.0",
+]
