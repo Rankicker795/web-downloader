@@ -1,10 +1,10 @@
 import asyncio
-import httpx
-import parsel
 from pathlib import Path
-from rich import print
 from urllib.parse import urlparse
 
+import httpx
+import parsel
+from rich import print
 
 url = "https://nssrgeo.ndc.nasa.gov/satellite/goes19/glm/l3/latest_geojson/"
 

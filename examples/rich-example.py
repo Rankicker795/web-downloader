@@ -1,9 +1,10 @@
+from dataclasses import dataclass
+
 import numpy as np
 import polars as pl
 from rich import inspect
 from rich import print as rprint
 from rich.pretty import pprint
-from dataclasses import dataclass
 
 
 @dataclass
